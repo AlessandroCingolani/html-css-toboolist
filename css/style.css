@@ -19,10 +19,16 @@ header
   font-weight: bold;
 }
 
-.top-main{
+.top-container{
   width: 80%;
   background-color: white;
-  margin: 40px auto;
+  margin: 0 auto;
+  margin-top: 40px;
   padding: 20px;
 }
 
+.container{
+  width: 80%;
+  background-color: white;
+  margin: 2px auto;
+}
