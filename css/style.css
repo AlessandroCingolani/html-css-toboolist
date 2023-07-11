@@ -32,3 +32,19 @@ header
   background-color: white;
   margin: 2px auto;
 }
+
+.container ul span::before{
+  content: "\2714";
+}
+
+.container ul li{
+  list-style-position: inside;
+  list-style: none;
+}
+
+.check::before{
+  content: "\2714";
+  color: green;
+  border: 1px green;
+  border-radius: 50%;
+}
