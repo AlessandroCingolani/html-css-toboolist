@@ -85,8 +85,8 @@ header
 }
 
 ul .list-title{
-  font-size: larger;
-  font-weight: bol;
+  font-size: 1.5rem;
+  font-weight: bolder;
 }
 
 /* tags colors */
