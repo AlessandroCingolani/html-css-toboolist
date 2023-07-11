@@ -34,7 +34,7 @@ header
 }
 
 .container ul span::before{
-  content: "\25BC";
+  content: "\25BC  ";
 }
 
 .container ul li{
@@ -42,6 +42,7 @@ header
   list-style: none;
 }
 
+/* need to ragroup similiar function */
 .check::before{
   display: inline-block;
   text-align: center;
@@ -72,4 +73,9 @@ header
 
 .spacing ul li{
   padding-top: 10px;
+}
+
+ul span{
+  font-size: larger;
+  font-weight: bold;
 }
