@@ -5,12 +5,12 @@
 }
 
 body{
-  background-color: rgba(128, 128, 128, 0.242);
+  background-color:#edf1f3;
 }
 
 header
 {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .head-top span{
@@ -34,7 +34,7 @@ header
 }
 
 .container ul::before{
-  content: "\25BC  ";
+  content: "\1F783  ";
 }
 
 .container ul li{
@@ -67,13 +67,15 @@ header
   border-radius: 50%;
 }
 
+/* all tags dimension and font */
 .tag{
   color: white;
-  padding: 5px 10px;
+  padding: 4px 10px;
   font-size: 0.6rem;
   border-radius: 10px;
 }
 
+/* spacing all section */
 .container .spacing{
   padding: 30px 30px;
 }
@@ -84,7 +86,7 @@ header
 
 ul .list-title{
   font-size: larger;
-  font-weight: bold;
+  font-weight: bol;
 }
 
 /* tags colors */
