@@ -14,11 +14,13 @@ header
   background-color: #FFFFFF;
 }
 
+/* title */
 .head-top span{
   font-size: 2.5rem;
   font-weight: bold;
 }
 
+/* container button */
 .top-container{
   width: 80%;
   background-color: white;
@@ -27,16 +29,27 @@ header
   padding: 20px;
 }
 
+.top-container input{
+  color: white;
+  padding: 5px;
+  background-color: #44AAE9;
+  border: none;
+  border-radius: 10px;
+}
+
+/* central container */
 .container{
   width: 80%;
   background-color: white;
   margin: 2px auto;
 }
 
+/* down arrow */
 .container ul::before{
   content: "\1F783  ";
 }
 
+/* position and style none for list */
 .container ul li{
   list-style-position: inside;
   list-style: none;
@@ -82,9 +95,10 @@ header
   padding: 20px 50px;
 }
 
+/* spacing list and font bold */
 .spacing ul li{
   padding-top: 20px;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 ul .list-title{
