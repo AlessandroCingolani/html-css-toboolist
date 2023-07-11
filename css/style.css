@@ -29,6 +29,7 @@ header
   padding: 20px;
 }
 
+/* button position sizes and colors */
 .top-container input{
   color: white;
   font-size: 0.7rem;
@@ -47,6 +48,8 @@ header
   color: rgba(128, 128, 128, 0.767);
   border: 1px solid gray;
 }
+
+/* /button position sizes and colors */
 
 /* central container */
 .container{
