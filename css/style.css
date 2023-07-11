@@ -83,7 +83,7 @@ header
   padding-top: 10px;
 }
 
-ul span{
+ul .list-title{
   font-size: larger;
   font-weight: bold;
 }
