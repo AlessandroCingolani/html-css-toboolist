@@ -34,7 +34,7 @@ header
 }
 
 .container ul span::before{
-  content: "\2714";
+  content: "\25BC";
 }
 
 .container ul li{
@@ -43,8 +43,13 @@ header
 }
 
 .check::before{
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
   content: "\2714";
   color: green;
-  border: 1px green;
+  width: 20px;
+  height: 20px;
+  border: 1px solid green;
   border-radius: 50%;
 }
