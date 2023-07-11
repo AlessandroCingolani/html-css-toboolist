@@ -31,10 +31,21 @@ header
 
 .top-container input{
   color: white;
-  padding: 5px;
-  background-color: #44AAE9;
+  font-size: 0.7rem;
+  padding: 7px;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
+}
+
+.left-button{
+  margin-left: 40px;
+  background-color: #44AAE9;
+}
+
+#right-button{
+  background-color: white;
+  color: rgba(128, 128, 128, 0.767);
+  border: 1px solid gray;
 }
 
 /* central container */
