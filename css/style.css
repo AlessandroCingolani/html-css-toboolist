@@ -19,8 +19,16 @@ header
   font-weight: bold;
 }
 
-.container{
+main{
   width: 80%;
+  height: 1000px;
   background-color: white;
   margin: 40px auto;
+}
+
+.container{
+  width: 80%;
+  height: 500px;
+  background-color: aqua;
+  margin: 20px auto;
 }
