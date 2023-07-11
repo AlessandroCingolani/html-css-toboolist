@@ -45,11 +45,31 @@ header
 .check::before{
   display: inline-block;
   text-align: center;
-  line-height: 20px;
+  line-height: 15px;
   content: "\2714";
   color: green;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border: 1px solid green;
   border-radius: 50%;
+}
+
+.cross::before{
+  display: inline-block;
+  text-align: center;
+  line-height: 15px;
+  content: "\2613";
+  color: red;
+  width: 15px;
+  height: 15px;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+.container .spacing{
+  padding: 30px 30px;
+}
+
+.spacing ul li{
+  padding-top: 10px;
 }
