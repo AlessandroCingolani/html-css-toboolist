@@ -33,7 +33,7 @@ header
   margin: 2px auto;
 }
 
-.container ul span::before{
+.container ul::before{
   content: "\25BC  ";
 }
 
@@ -65,6 +65,14 @@ header
   height: 15px;
   border: 1px solid red;
   border-radius: 50%;
+}
+
+.tag{
+  color: white;
+  padding: 8px;
+  font-size: 0.6rem;
+  border-radius: 10px;
+  background-color: aqua;
 }
 
 .container .spacing{
